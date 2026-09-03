@@ -2,7 +2,7 @@
 
 **arXiv 2026**
 
-> **Xin Zhang**, **Qiqi Tao**, **Jiawei Du**, **Moyun Liu**, **Joey Tianyi Zhou**
+> [**Xin Zhang**](https://zhangxin-xd.github.io/), [**Qiqi Tao**](https://www.sutd.edu.sg/profile/qiqi-tao/), [**Jiawei Du**](https://scholar.google.com/citations?user=WrJKEzEAAAAJ&hl=en), [**Moyun Liu**](http://lmomoy.github.io/), [**Joey Tianyi Zhou**](https://joeyzhouty.github.io/)
 
 <p align="center">
   <a href="https://arxiv.org/abs/2605.02735"><img src="https://img.shields.io/badge/Paper-arXiv%3A2605.02735-b31b1b?logo=arxiv" alt="Paper"/></a>
