@@ -1,0 +1,67 @@
+# Secrets / environment
+.env
+.env.local
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs
+venv/
+.venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# HuggingFace / model caches
+.cache/
+cache/
+hf_cache/
+
+# Raw image datasets — users should place them here for local eval
+dataset/*
+!dataset/.gitkeep
+# Benchmark manifest JSONs are shipped with the repo; only exclude local backups
+data/*.json.bak
+!data/.gitkeep
+
+# Experiment outputs — ignore everything except results.json (final metrics)
+output_lead/
+output_lead_test/
+output_rebuttal/
+output_rebuttal.tar.gz
+output/**
+!output/
+!output/**/
+!output/**/results.json
+logs/
+*.log
+
+# Ephemeral / editor backups
+*.bak
+*.tmp
+*~
+
+# Large archives
+*.tar.gz
+*.zip
+*.pt
+*.bin
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
