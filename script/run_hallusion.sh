@@ -16,7 +16,7 @@ NUM_WORKERS=${NUM_WORKERS:-1}
 KV_REUSE=${KV_REUSE:-1}
 KVFLAG=""; [ "$KV_REUSE" = "1" ] && KVFLAG="--kv_reuse"
 TAG=$([ "$KV_REUSE" = "1" ] && echo kv || echo base)
-OUT=./output_rebuttal/${DATASET}/n${N}_${TAG}
+OUT=./output/${DATASET}/n${N}_${TAG}
 
 echo ">>> ${DATASET}  N=${N}  KV_REUSE=${KV_REUSE}  GPU=${CUDA_VISIBLE_DEVICES}  -> ${OUT}"
 

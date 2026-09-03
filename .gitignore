@@ -40,10 +40,6 @@ data/*.json.bak
 !data/.gitkeep
 
 # Experiment outputs — ignore everything except results.json (final metrics)
-output_lead/
-output_lead_test/
-output_rebuttal/
-output_rebuttal.tar.gz
 output/**
 !output/
 !output/**/

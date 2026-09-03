@@ -70,7 +70,7 @@ ULR is a **training-free** method — no fine-tuning is required. It runs on top
 
 ### Reproduce Main Results
 
-Each script takes an optional sample count `N` and writes to `./output_rebuttal/<dataset>/n<N>_<tag>/results.json`.
+Each script takes an optional sample count `N` and writes to `./output/<dataset>/n<N>_<tag>/results.json`.
 
 ```bash
 # MMVP (default N=300)
