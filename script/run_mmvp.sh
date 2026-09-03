@@ -34,7 +34,7 @@ $PYBIN main.py \
     --num_workers "$NUM_WORKERS" --worker_device_round_robin \
     --align_pos_k 4 \
     --patch_select_from_question --align_contrastive \
-    --align_contrastive_tau 0.2 --align_neg_k 16 --align_weight 1 \
+    --align_contrastive_tau 0.2 --align_neg_k 4 --align_weight 1 \
     --question_patch_assign_mode index_slice \
     --solver_prompt_idx 5 --thought_vision_attn_reward_weight 0.05 \
     $KVFLAG

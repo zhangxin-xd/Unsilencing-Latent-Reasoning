@@ -44,7 +44,7 @@
     "align_weight": 1.0,
     "align_contrastive": true,
     "align_contrastive_tau": 0.2,
-    "align_neg_k": 16,
+    "align_neg_k": 4,
     "align_sgd_pre_steps": 5,
     "thought_vision_attn_reward_weight": 0.05,
     "patch_select_from_question": true,
